@@ -9,6 +9,8 @@ The standard heatsoaking with the bed or enclosure heater does not add the hoten
 
 The code is nowhere near production quality. This is just POC meant for studying the phenomenon. It has only been tried&tested on PLA with cold bed, where it seems to produce reasonable first layers with a 0.3mm first layer height and a 0.4mm nozzle.
 
+The macro "START_PRINT" is a modified version of the code in RatOS, see https://github.com/Rat-OS/RatOS
+
 ## Use
 To use this routine, clone the repo wherever, and include the "printer.cfg" from that location. An example:
 
