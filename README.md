@@ -16,5 +16,10 @@ To use this routine, clone the repo whereever, and include the "printer.cfg" fro
 
 The path is relative to your "real" `printer.cfg` file. The include should be towards the end of your `printer.cfg` file, so that the values are not overriden.
 
- 
+To change the time or the Y postion of the soaking, edit the file `start_print.cfg`:
+```	
+#Customizations for POC
+	{% set gantry_heat_soak_time = 1200 %}
+	{% set gantry_heat_soak_Y = 410 %}
+``` 
 
